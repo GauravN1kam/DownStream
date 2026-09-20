@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		CDB72827305F9EDB0048EA9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDB7280F305F9ED80048EA9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDB72816305F9ED80048EA9E;
+			remoteInfo = DownStream;
+		};
+		CDB72831305F9EDB0048EA9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDB7280F305F9ED80048EA9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDB72816305F9ED80048EA9E;
+			remoteInfo = DownStream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDB72817305F9ED80048EA9E /* DownStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB72826305F9EDB0048EA9E /* DownStreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownStreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB72830305F9EDB0048EA9E /* DownStreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownStreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CDB72819305F9ED80048EA9E /* DownStream */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DownStream;
+			sourceTree = "<group>";
+		};
+		CDB72829305F9EDB0048EA9E /* DownStreamTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DownStreamTests;
+			sourceTree = "<group>";
+		};
+		CDB72833305F9EDB0048EA9E /* DownStreamUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DownStreamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDB72814305F9ED80048EA9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		CDB72823305F9EDB0048EA9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		CDB7282D305F9EDB0048EA9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDB7280E305F9ED80048EA9E = {
+			isa = PBXGroup;
+			children = (
+				CDB72819305F9ED80048EA9E /* DownStream */,
+				CDB72829305F9EDB0048EA9E /* DownStreamTests */,
+				CDB72833305F9EDB0048EA9E /* DownStreamUITests */,
+				CDB72818305F9ED80048EA9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDB72818305F9ED80048EA9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDB72817305F9ED80048EA9E /* DownStream.app */,
+				CDB72826305F9EDB0048EA9E /* DownStreamTests.xctest */,
+				CDB72830305F9EDB0048EA9E /* DownStreamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDB72816305F9ED80048EA9E /* DownStream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB72838305F9EDB0048EA9E /* Build configuration list for PBXNativeTarget "DownStream" */;
+			buildPhases = (
+				CDB72813305F9ED80048EA9E /* Sources */,
+				CDB72814305F9ED80048EA9E /* Frameworks */,
+				CDB72815305F9ED80048EA9E /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				CDB72819305F9ED80048EA9E /* DownStream */,
+			);
+			name = DownStream;
+			productName = DownStream;
+			productReference = CDB72817305F9ED80048EA9E /* DownStream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDB72825305F9EDB0048EA9E /* DownStreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB7283B305F9EDB0048EA9E /* Build configuration list for PBXNativeTarget "DownStreamTests" */;
+			buildPhases = (
+				CDB72822305F9EDB0048EA9E /* Sources */,
+				CDB72823305F9EDB0048EA9E /* Frameworks */,
+				CDB72824305F9EDB0048EA9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDB72828305F9EDB0048EA9E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CDB72829305F9EDB0048EA9E /* DownStreamTests */,
+			);
+			name = DownStreamTests;
+			productName = DownStreamTests;
+			productReference = CDB72826305F9EDB0048EA9E /* DownStreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDB7282F305F9EDB0048EA9E /* DownStreamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB7283E305F9EDB0048EA9E /* Build configuration list for PBXNativeTarget "DownStreamUITests" */;
+			buildPhases = (
+				CDB7282C305F9EDB0048EA9E /* Sources */,
+				CDB7282D305F9EDB0048EA9E /* Frameworks */,
+				CDB7282E305F9EDB0048EA9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDB72832305F9EDB0048EA9E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CDB72833305F9EDB0048EA9E /* DownStreamUITests */,
+			);
+			name = DownStreamUITests;
+			productName = DownStreamUITests;
+			productReference = CDB72830305F9EDB0048EA9E /* DownStreamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDB7280F305F9ED80048EA9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					CDB72816305F9ED80048EA9E = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					CDB72825305F9EDB0048EA9E = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = CDB72816305F9ED80048EA9E;
+					};
+					CDB7282F305F9EDB0048EA9E = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = CDB72816305F9ED80048EA9E;
+					};
+				};
+			};
+			buildConfigurationList = CDB72812305F9ED80048EA9E /* Build configuration list for PBXProject "DownStream" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDB7280E305F9ED80048EA9E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CDB72818305F9ED80048EA9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDB72816305F9ED80048EA9E /* DownStream */,
+				CDB72825305F9EDB0048EA9E /* DownStreamTests */,
+				CDB7282F305F9EDB0048EA9E /* DownStreamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDB72815305F9ED80048EA9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		CDB72824305F9EDB0048EA9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		CDB7282E305F9EDB0048EA9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDB72813305F9ED80048EA9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		CDB72822305F9EDB0048EA9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		CDB7282C305F9EDB0048EA9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDB72828305F9EDB0048EA9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDB72816305F9ED80048EA9E /* DownStream */;
+			targetProxy = CDB72827305F9EDB0048EA9E /* PBXContainerItemProxy */;
+		};
+		CDB72832305F9EDB0048EA9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDB72816305F9ED80048EA9E /* DownStream */;
+			targetProxy = CDB72831305F9EDB0048EA9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CDB72836305F9EDB0048EA9E /* Debug configuration for PBXProject "DownStream" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = GS4AHFFPFY;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDB72837305F9EDB0048EA9E /* Release configuration for PBXProject "DownStream" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = GS4AHFFPFY;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDB72839305F9EDB0048EA9E /* Debug configuration for PBXNativeTarget "DownStream" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GS4AHFFPFY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaurav.DownStream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDB7283A305F9EDB0048EA9E /* Release configuration for PBXNativeTarget "DownStream" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GS4AHFFPFY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaurav.DownStream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDB7283C305F9EDB0048EA9E /* Debug configuration for PBXNativeTarget "DownStreamTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GS4AHFFPFY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaurav.DownStreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DownStream.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DownStream";
+			};
+			name = Debug;
+		};
+		CDB7283D305F9EDB0048EA9E /* Release configuration for PBXNativeTarget "DownStreamTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GS4AHFFPFY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaurav.DownStreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DownStream.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DownStream";
+			};
+			name = Release;
+		};
+		CDB7283F305F9EDB0048EA9E /* Debug configuration for PBXNativeTarget "DownStreamUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GS4AHFFPFY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaurav.DownStreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DownStream;
+			};
+			name = Debug;
+		};
+		CDB72840305F9EDB0048EA9E /* Release configuration for PBXNativeTarget "DownStreamUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GS4AHFFPFY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaurav.DownStreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DownStream;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDB72812305F9ED80048EA9E /* Build configuration list for PBXProject "DownStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB72836305F9EDB0048EA9E /* Debug configuration for PBXProject "DownStream" */,
+				CDB72837305F9EDB0048EA9E /* Release configuration for PBXProject "DownStream" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		CDB72838305F9EDB0048EA9E /* Build configuration list for PBXNativeTarget "DownStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB72839305F9EDB0048EA9E /* Debug configuration for PBXNativeTarget "DownStream" */,
+				CDB7283A305F9EDB0048EA9E /* Release configuration for PBXNativeTarget "DownStream" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		CDB7283B305F9EDB0048EA9E /* Build configuration list for PBXNativeTarget "DownStreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB7283C305F9EDB0048EA9E /* Debug configuration for PBXNativeTarget "DownStreamTests" */,
+				CDB7283D305F9EDB0048EA9E /* Release configuration for PBXNativeTarget "DownStreamTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		CDB7283E305F9EDB0048EA9E /* Build configuration list for PBXNativeTarget "DownStreamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB7283F305F9EDB0048EA9E /* Debug configuration for PBXNativeTarget "DownStreamUITests" */,
+				CDB72840305F9EDB0048EA9E /* Release configuration for PBXNativeTarget "DownStreamUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDB7280F305F9ED80048EA9E /* Project object */;
+	validationLevel = 1;
+}
